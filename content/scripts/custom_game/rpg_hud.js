@@ -81,7 +81,8 @@ GameEvents.Subscribe("rpg_loot", function (d) {
 
 // ---- Снаряжение: панель + тултип с реальными свойствами ----
 function IsRpgGearName(name) {
-	return name == "item_rpg_weapon" || name == "item_rpg_armor" || name == "item_rpg_ring" || name == "item_rpg_relic";
+	if (!name) return false;
+	return name.indexOf("item_rpg_") !== -1;
 }
 
 function FillItemTip(d) {
@@ -124,7 +125,7 @@ function ShowRpgTipFromArgs() {
 		FillItemTip({
 			name: "Снаряжение арены",
 			color: "#ffd24a",
-			lines: "Свойства бросаются при покупке или подборе.\nНаведите на предмет уже в инвентаре — там будут точные статы.",
+			lines: "Свойства определяются при выпадении или покупке.\nВ инвентаре будет показан полный набор статы.",
 			set: ""
 		});
 		return;
