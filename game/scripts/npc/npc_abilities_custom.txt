@@ -1,0 +1,38 @@
+"DOTAAbilities"
+{
+	"rpg_arcane_burst"
+	{
+		"BaseClass"				"ability_lua"
+		"ScriptFile"			"abilities/rpg_arcane_burst"
+		"AbilityTextureName"	"crystal_maiden_crystal_nova"
+		"AbilityBehavior"		"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityUnitDamageType"	"DAMAGE_TYPE_MAGICAL"
+		"SpellImmunityType"		"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityCooldown"		"12 11 10 9 8"
+		"AbilityManaCost"		"90 100 110 120 130"
+		"AoERadius"				"550"
+		"MaxLevel"				"5"
+		"AbilityValues"
+		{
+			"radius"	"550"
+			"damage"	"150 250 350 450 550"
+			"int_scale"	"2.0"
+		}
+	}
+
+	"rpg_second_wind"
+	{
+		"BaseClass"				"ability_lua"
+		"ScriptFile"			"abilities/rpg_second_wind"
+		"AbilityTextureName"	"omniknight_repel"
+		"AbilityBehavior"		"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityCooldown"		"30 28 26 24 22"
+		"AbilityManaCost"		"120"
+		"MaxLevel"				"5"
+		"AbilityValues"
+		{
+			"radius"	"800"
+			"heal_pct"	"20 25 30 35 40"
+		}
+	}
+}

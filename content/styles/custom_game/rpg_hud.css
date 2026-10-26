@@ -1,0 +1,95 @@
+.RpgRoot { width: 100%; height: 100%; }
+.Hidden { visibility: collapse; }
+
+#WaveBox {
+	horizontal-align: center; vertical-align: top;
+	margin-top: 70px; padding: 8px 28px;
+	flow-children: down;
+	background-color: gradient(linear, 0% 0%, 0% 100%, from(#000000cc), to(#000000aa));
+	border-radius: 8px;
+}
+#WaveTitle { font-size: 26px; color: #ffffff; font-weight: bold; horizontal-align: center; }
+#WaveInfo  { font-size: 20px; color: #ffd24a; horizontal-align: center; }
+#LivesLabel { font-size: 16px; color: #ff9a9a; horizontal-align: center; }
+
+#StatBox {
+	horizontal-align: right; vertical-align: top;
+	margin-top: 170px; margin-right: 12px; padding: 8px;
+	flow-children: down;
+	background-color: #000000bb; border-radius: 8px;
+}
+#PointsLabel { font-size: 20px; color: #7dff9a; margin-bottom: 6px; }
+.StatRow { flow-children: down; }
+.StatBtn {
+	margin: 2px 0px; padding: 4px 14px;
+	background-color: #2a3b55; border-radius: 4px;
+}
+.StatBtn:hover { background-color: #3d5680; }
+.StatBtn Label { font-size: 16px; color: #ffffff; }
+
+#PerkBox {
+	horizontal-align: center; vertical-align: center;
+	flow-children: down; padding: 16px;
+	background-color: #000000dd; border-radius: 10px;
+}
+#PerkTitle { font-size: 28px; color: #ffffff; horizontal-align: center; margin-bottom: 12px; }
+#PerkCards { flow-children: right; }
+.PerkCard {
+	width: 220px; margin: 0px 8px; padding: 14px;
+	flow-children: down;
+	background-color: #1c2740; border: 2px solid #4a90e2; border-radius: 8px;
+}
+.PerkCard:hover { background-color: #2c3d63; border: 2px solid #ffd24a; }
+.PerkName  { font-size: 22px; color: #ffd24a; font-weight: bold; margin-bottom: 6px; }
+.PerkDesc  { font-size: 17px; color: #e0e0e0; width: 100%; text-overflow: shrink; white-space: normal; }
+.PerkCount { font-size: 14px; color: #8fd3ff; margin-top: 8px; }
+
+#GearBox {
+	horizontal-align: left; vertical-align: center;
+	margin-left: 12px;
+	padding: 8px 10px;
+	width: 280px;
+	flow-children: down;
+	background-color: #000000bb; border-radius: 8px;
+}
+#GearTitle { font-size: 16px; color: #ffd24a; font-weight: bold; margin-bottom: 4px; }
+#GearList { flow-children: down; width: 100%; }
+.GearRow {
+	width: 100%;
+	margin: 3px 0px; padding: 5px 7px;
+	flow-children: down;
+	background-color: #141c2acc; border-radius: 4px;
+}
+.GearName { font-size: 15px; font-weight: bold; width: 100%; }
+.GearLines { font-size: 14px; color: #d8d8d8; width: 100%; white-space: normal; }
+#GearSets { font-size: 13px; color: #9ad4ff; margin-top: 6px; white-space: normal; width: 100%; }
+
+#ItemTip {
+	horizontal-align: left; vertical-align: top;
+	padding: 10px 12px;
+	flow-children: down;
+	width: 320px;
+	background-color: #0b1018ee;
+	border: 2px solid #ffd24a;
+	border-radius: 6px;
+	z-index: 1000;
+}
+#ItemTipName { font-size: 20px; font-weight: bold; width: 100%; }
+#ItemTipSet { font-size: 14px; color: #ffb36b; margin-top: 2px; width: 100%; }
+#ItemTipBody { font-size: 16px; color: #e8e8e8; margin-top: 6px; white-space: normal; width: 100%; }
+
+#ToastBox {
+	horizontal-align: center; vertical-align: bottom;
+	margin-bottom: 260px; flow-children: down;
+}
+.Toast { font-size: 20px; color: #ffffff; horizontal-align: center; text-shadow: 0px 0px 4px 3.0 #000000; margin-top: 2px; }
+
+/* Редкости перков */
+.PerkCard.Rarity1 { border: 2px solid #b8b8b8; }
+.PerkCard.Rarity2 { border: 2px solid #4a90e2; }
+.PerkCard.Rarity3 { border: 2px solid #b050e0; }
+.PerkCard.Rarity4 { border: 2px solid #ff9a1e; }
+.PerkCard.Rarity5 { border: 3px solid #ff3d6e; background-color: #2a1428; }
+.PerkCard:hover { background-color: #2c3d63; }
+.PerkRarity { font-size: 14px; font-weight: bold; margin-bottom: 2px; }
+.PerkBuild  { font-size: 15px; color: #ff9fb8; margin-bottom: 4px; }

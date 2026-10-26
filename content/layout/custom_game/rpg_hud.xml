@@ -1,0 +1,44 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/rpg_hud.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/rpg_hud.js" />
+	</scripts>
+	<Panel class="RpgRoot" hittest="false">
+
+		<Panel id="WaveBox" hittest="false">
+			<Label id="WaveTitle" text="" />
+			<Label id="WaveInfo" text="" />
+			<Label id="LivesLabel" text="" />
+		</Panel>
+
+		<Panel id="StatBox">
+			<Label id="PointsLabel" text="Очки: 0" />
+			<Panel class="StatRow">
+				<Button class="StatBtn" onactivate="Spend('str')"><Label id="StrLabel" text="+ Сила" /></Button>
+				<Button class="StatBtn" onactivate="Spend('agi')"><Label id="AgiLabel" text="+ Ловкость" /></Button>
+				<Button class="StatBtn" onactivate="Spend('int')"><Label id="IntLabel" text="+ Интеллект" /></Button>
+			</Panel>
+		</Panel>
+
+		<Panel id="PerkBox" class="Hidden">
+			<Label id="PerkTitle" text="Выберите улучшение" />
+			<Panel id="PerkCards" />
+		</Panel>
+
+		<Panel id="GearBox" hittest="false">
+			<Label id="GearTitle" text="Снаряжение" />
+			<Panel id="GearList" />
+			<Label id="GearSets" text="" />
+		</Panel>
+
+		<Panel id="ItemTip" class="Hidden" hittest="false">
+			<Label id="ItemTipName" text="" />
+			<Label id="ItemTipSet" text="" />
+			<Label id="ItemTipBody" text="" />
+		</Panel>
+
+		<Panel id="ToastBox" hittest="false" />
+	</Panel>
+</root>

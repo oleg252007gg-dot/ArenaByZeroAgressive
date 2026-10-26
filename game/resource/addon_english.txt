@@ -1,0 +1,47 @@
+"lang"
+{
+	"Language"	"english"
+	"Tokens"
+	{
+		"addon_game_name"	"RPG Arena"
+
+		"DOTA_Tooltip_ability_item_rpg_weapon"				"Arena Weapon"
+		"DOTA_Tooltip_ability_item_rpg_weapon_Description"	"Random stats: damage, attack speed, crit, lifesteal. Exact numbers are in the Equipment panel and on inventory hover."
+		"DOTA_Tooltip_ability_item_rpg_armor"				"Arena Armor"
+		"DOTA_Tooltip_ability_item_rpg_armor_Description"	"Random stats: armor, health, regen, movespeed. Exact numbers are in the Equipment panel and on inventory hover."
+		"DOTA_Tooltip_ability_item_rpg_ring"				"Arena Ring"
+		"DOTA_Tooltip_ability_item_rpg_ring_Description"	"Random stats: spell amp, mana, cooldown reduction, regen. Exact numbers are in the Equipment panel and on inventory hover."
+		"DOTA_Tooltip_ability_item_rpg_relic"				"Relic"
+		"DOTA_Tooltip_ability_item_rpg_relic_Description"	"Epic+. Active: frost nova around the hero. Exact stats are in the Equipment panel and on inventory hover."
+		"DOTA_Tooltip_ability_item_rpg_potion"				"Arena Potion"
+		"DOTA_Tooltip_ability_item_rpg_potion_Description"	"Restores 40% health and 25% mana."
+
+		"DOTA_Tooltip_ability_rpg_arcane_burst"				"Arcane Burst"
+		"DOTA_Tooltip_ability_rpg_arcane_burst_Description"	"Bursts around the hero, dealing magical damage to all enemies. Scales with intelligence."
+		"DOTA_Tooltip_ability_rpg_arcane_burst_radius"		"RADIUS:"
+		"DOTA_Tooltip_ability_rpg_arcane_burst_damage"		"BASE DAMAGE:"
+		"DOTA_Tooltip_ability_rpg_arcane_burst_int_scale"	"DAMAGE PER INTELLIGENCE:"
+
+		"DOTA_Tooltip_ability_rpg_second_wind"				"Second Wind"
+		"DOTA_Tooltip_ability_rpg_second_wind_Description"	"Heals you and nearby allied heroes for a percentage of max health."
+		"DOTA_Tooltip_ability_rpg_second_wind_radius"		"RADIUS:"
+		"DOTA_Tooltip_ability_rpg_second_wind_heal_pct"		"% HEAL:"
+
+		"npc_rpg_creep_melee"	"Arena Warrior"
+		"npc_rpg_creep_ranged"	"Arena Archer"
+		"npc_rpg_creep_brute"	"Brute"
+		"npc_rpg_boss_golem"	"Stone Golem"
+		"npc_rpg_boss_ogre"		"Ogre Chieftain"
+		"npc_rpg_wolf"	"Wild Wolf"
+		"npc_rpg_satyr"	"Satyr Hexer"
+		"npc_rpg_kobold_healer"	"Kobold Healer"
+		"npc_rpg_ghost"	"Ghost"
+		"npc_rpg_centaur"	"Centaur"
+		"npc_rpg_troll_summoner"	"Troll Summoner"
+		"npc_rpg_golem"	"Granite Golem"
+		"npc_rpg_boss_troll"	"Troll King"
+		"npc_rpg_boss_ghost"	"Ghost Lord"
+		"npc_rpg_boss_centaur"	"Centaur Warchief"
+		"npc_rpg_boss_roshan"	"Roshan"
+	}
+}

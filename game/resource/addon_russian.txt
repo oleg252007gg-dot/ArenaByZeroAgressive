@@ -1,0 +1,47 @@
+"lang"
+{
+	"Language"	"russian"
+	"Tokens"
+	{
+		"addon_game_name"	"RPG Арена"
+
+		"DOTA_Tooltip_ability_item_rpg_weapon"				"Оружие арены"
+		"DOTA_Tooltip_ability_item_rpg_weapon_Description"	"Случайные свойства: урон, скорость атаки, крит, вампиризм. Точные числа — в панели «Снаряжение» слева и при наведении на предмет в инвентаре."
+		"DOTA_Tooltip_ability_item_rpg_armor"				"Броня арены"
+		"DOTA_Tooltip_ability_item_rpg_armor_Description"	"Случайные свойства: броня, здоровье, регенерация, скорость. Точные числа — в панели «Снаряжение» и при наведении в инвентаре."
+		"DOTA_Tooltip_ability_item_rpg_ring"				"Кольцо арены"
+		"DOTA_Tooltip_ability_item_rpg_ring_Description"	"Случайные свойства: сила умений, мана, снижение перезарядки, регенерация. Точные числа — в панели «Снаряжение» и при наведении в инвентаре."
+		"DOTA_Tooltip_ability_item_rpg_relic"				"Реликвия"
+		"DOTA_Tooltip_ability_item_rpg_relic_Description"	"Эпик+. Активация: ледяной взрыв вокруг героя. Точные свойства — в панели «Снаряжение» и при наведении в инвентаре."
+		"DOTA_Tooltip_ability_item_rpg_potion"				"Зелье арены"
+		"DOTA_Tooltip_ability_item_rpg_potion_Description"	"Восстанавливает 40% здоровья и 25% маны."
+
+		"DOTA_Tooltip_ability_rpg_arcane_burst"				"Арканный взрыв"
+		"DOTA_Tooltip_ability_rpg_arcane_burst_Description"	"Взрыв вокруг героя наносит магический урон всем врагам. Урон растёт с интеллектом."
+		"DOTA_Tooltip_ability_rpg_arcane_burst_radius"		"РАДИУС:"
+		"DOTA_Tooltip_ability_rpg_arcane_burst_damage"		"БАЗОВЫЙ УРОН:"
+		"DOTA_Tooltip_ability_rpg_arcane_burst_int_scale"	"УРОН ЗА ЕД. ИНТЕЛЛЕКТА:"
+
+		"DOTA_Tooltip_ability_rpg_second_wind"				"Второе дыхание"
+		"DOTA_Tooltip_ability_rpg_second_wind_Description"	"Лечит вас и союзных героев рядом на процент от максимального здоровья."
+		"DOTA_Tooltip_ability_rpg_second_wind_radius"		"РАДИУС:"
+		"DOTA_Tooltip_ability_rpg_second_wind_heal_pct"		"% ЛЕЧЕНИЯ:"
+
+		"npc_rpg_creep_melee"	"Воин арены"
+		"npc_rpg_creep_ranged"	"Стрелок арены"
+		"npc_rpg_creep_brute"	"Громила"
+		"npc_rpg_boss_golem"	"Каменный голем"
+		"npc_rpg_boss_ogre"		"Огр-вожак"
+		"npc_rpg_wolf"	"Дикий волк"
+		"npc_rpg_satyr"	"Сатир-проклинатель"
+		"npc_rpg_kobold_healer"	"Кобольд-знахарь"
+		"npc_rpg_ghost"	"Призрак"
+		"npc_rpg_centaur"	"Кентавр"
+		"npc_rpg_troll_summoner"	"Тролль-призыватель"
+		"npc_rpg_golem"	"Гранитный голем"
+		"npc_rpg_boss_troll"	"Король троллей"
+		"npc_rpg_boss_ghost"	"Призрачный лорд"
+		"npc_rpg_boss_centaur"	"Вождь кентавров"
+		"npc_rpg_boss_roshan"	"Рошан"
+	}
+}

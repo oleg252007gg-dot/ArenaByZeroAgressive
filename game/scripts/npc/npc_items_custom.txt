@@ -1,0 +1,93 @@
+"DOTAAbilities"
+{
+	// ===== Снаряжение: свойства генерируются случайно (см. game/loot.lua) =====
+	"item_rpg_weapon"
+	{
+		"BaseClass"				"item_lua"
+		"ScriptFile"			"items/item_rpg_gear"
+		"AbilityTextureName"	"item_greater_crit"
+		"AbilityBehavior"		"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemCost"				"400"
+		"ItemQuality"			"component"
+		"ItemShopTags"			"damage;hard_to_tag"
+		"ItemKillable"			"0"
+		"ItemSellable"			"1"
+		"ItemDroppable"			"1"
+		"ItemPurchasable"		"1"
+		"ItemShareability"		"ITEM_NOT_SHAREABLE"
+		"ItemDisassembleRule"	"DOTA_ITEM_DISASSEMBLE_NEVER"
+	}
+
+	"item_rpg_armor"
+	{
+		"BaseClass"				"item_lua"
+		"ScriptFile"			"items/item_rpg_gear"
+		"AbilityTextureName"	"item_assault"
+		"AbilityBehavior"		"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemCost"				"400"
+		"ItemQuality"			"component"
+		"ItemShopTags"			"armor;hard_to_tag"
+		"ItemKillable"			"0"
+		"ItemSellable"			"1"
+		"ItemDroppable"			"1"
+		"ItemPurchasable"		"1"
+		"ItemShareability"		"ITEM_NOT_SHAREABLE"
+		"ItemDisassembleRule"	"DOTA_ITEM_DISASSEMBLE_NEVER"
+	}
+
+	"item_rpg_ring"
+	{
+		"BaseClass"				"item_lua"
+		"ScriptFile"			"items/item_rpg_gear"
+		"AbilityTextureName"	"item_ring_of_basilius"
+		"AbilityBehavior"		"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemCost"				"400"
+		"ItemQuality"			"component"
+		"ItemShopTags"			"mana_pool;hard_to_tag"
+		"ItemKillable"			"0"
+		"ItemSellable"			"1"
+		"ItemDroppable"			"1"
+		"ItemPurchasable"		"1"
+		"ItemShareability"		"ITEM_NOT_SHAREABLE"
+		"ItemDisassembleRule"	"DOTA_ITEM_DISASSEMBLE_NEVER"
+	}
+
+	// Реликвия: только лут (эпик и выше), даёт активную способность
+	"item_rpg_relic"
+	{
+		"BaseClass"				"item_lua"
+		"ScriptFile"			"items/item_rpg_gear"
+		"AbilityTextureName"	"item_aeon_disk"
+		"AbilityBehavior"		"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitDamageType"	"DAMAGE_TYPE_MAGICAL"
+		"AbilityCooldown"		"14"
+		"AbilityManaCost"		"80"
+		"ItemCost"				"2000"
+		"ItemQuality"			"artifact"
+		"ItemKillable"			"0"
+		"ItemSellable"			"1"
+		"ItemDroppable"			"1"
+		"ItemPurchasable"		"0"
+		"ItemShareability"		"ITEM_NOT_SHAREABLE"
+	}
+
+	"item_rpg_potion"
+	{
+		"BaseClass"				"item_lua"
+		"ScriptFile"			"items/item_rpg_gear"
+		"AbilityTextureName"	"item_flask"
+		"AbilityBehavior"		"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityCooldown"		"8"
+		"ItemCost"				"120"
+		"ItemQuality"			"consumable"
+		"ItemShopTags"			"consumable"
+		"ItemStackable"			"1"
+		"ItemPermanent"			"0"
+		"ItemInitialCharges"	"3"
+		"ItemKillable"			"0"
+		"ItemSellable"			"1"
+		"ItemDroppable"			"1"
+		"ItemPurchasable"		"1"
+		"ItemShareability"		"ITEM_FULLY_SHAREABLE"
+	}
+}
